@@ -19,11 +19,21 @@ h1 {
 // custom
 .logo-font {
 	font-family: $logo-font;
+}
+.logo-master {
 	@include font-rem(48);
-		@media #{$medium} {
-			@include font-rem(64);
+	@media #{$medium} {
+		@include font-rem(64);
 	}
 }
+.logo-menu {
+	@include font-rem(24);
+}
+//	@include font-rem(48);
+//		@media #{$medium} {
+//			@include font-rem(64);
+//	}
+//}
 
 // Links
 // --------------------------------------------------
